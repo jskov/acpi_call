@@ -58,6 +58,15 @@ Found this too difficult? Try to use these programs provided by Marco Dalla Libe
 * [acpi_call_GUI (Ubuntu and other debian-based distributions)](http://marcodallas.github.io/acpi_call_GUI/)
 * [acpi_call_GUI_Fedora (Fedora version)](https://github.com/marcoDallas/acpi_call_GUI_Fedora)
 
+#### DKMS package
+
+Checkout this repository
+
+sudo dkms add .
+sudo dkms build acpi_call/1.0
+sudo dkms install acpi_call/1.0
+
+
 ***
 
 Copyright (c) 2010: Michal Kottman
