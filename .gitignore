@@ -1,0 +1,8 @@
+/*.o
+/*.ko
+/*~
+/Module.symvers
+/modules.order
+/.acpi_call*
+/.tmp_versions/
+/*.mod.c
