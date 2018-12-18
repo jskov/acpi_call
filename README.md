@@ -62,9 +62,7 @@ Found this too difficult? Try to use these programs provided by Marco Dalla Libe
 
 Checkout this repository
 
-sudo dkms add .
-sudo dkms build acpi_call/1.0
-sudo dkms install acpi_call/1.0
+sudo make -f Makefile.dkms install
 
 
 ***
